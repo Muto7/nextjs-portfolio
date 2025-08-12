@@ -45,7 +45,7 @@ const ResumePage = () => {
                     <p className="mt-2 text-black/80 text-base sm:text-lg">
                       Tekik Informatika
                     </p>
-                    <p className="text-slate-500 text-base sm:text-lg">Universitas Pamulang - Bachelor's Degree</p>
+                    <p className="text-slate-500 text-base sm:text-lg">Universitas Pamulang - Bachelor&apos;s Degree</p>
                     <p className="text-slate-500 text-base sm:text-lg">IPK : 3.59</p>
                   </div>
               </div>
