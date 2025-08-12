@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import DataImage from "../../public/data";
+import DataImage from "../data/data";
 import Link from "next/link";
 
 const PDF_FILE_URL =
@@ -24,7 +24,7 @@ export default function Dashboard() {
         
         {/* Foto */}
         <div className="bg-slate-700 w-32 h-32 md:w-40 md:h-full rounded-lg flex items-center justify-center row-span-3 col-start-1 row-start-2 mx-auto md:ml-6">
-          <Image src={DataImage.Profile} alt="Profile" width={120} height={80} className="" priority />
+          <Image src={DataImage.Profile} alt="Profile" width={120} height={80} className="h-auto w-auto" priority />
         </div>
 
         {/* Nama & Role */}
