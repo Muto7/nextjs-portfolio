@@ -89,7 +89,7 @@ export const skillList = [
         svgfile: "/assets/BigQuery.png"
     },
     {
-        name: "BigQuery",
+        name: "Kong ApiGateway",
         svgfile: "/assets/kong.png"
     }
 ]

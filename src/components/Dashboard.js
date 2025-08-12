@@ -4,8 +4,7 @@ import Image from "next/image";
 import DataImage from "../data/data";
 import Link from "next/link";
 
-const PDF_FILE_URL =
-  "https://muto-portofolio.vercel.app/Muchamad_Supriyanto_CV_Mei.pdf";
+const PDF_FILE_URL = "https://nextjs-portfolio-puce-two.vercel.app/MUCHAMAD_SUPRIYANTO_DEVOPS_ENGINEER_L2_APPLICATION_SUPPORT_CV.pdf";
 
 export default function Dashboard() {
   const downloadFileAtURL = (url) => {
