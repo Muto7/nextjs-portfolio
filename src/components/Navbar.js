@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
 
       {/* Bottom navbar untuk mobile & tablet */}
-      <div className="block md:hidden fixed bottom-0 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white rounded-t-xl sm:rounded-xl w-full max-w-sm p-2 shadow-lg">
+      <div className="block md:hidden fixed bottom-0 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white rounded-t-xl sm:rounded-xl w-full max-w-sm p-2 shadow-lg z-50">
         <div className="flex justify-around py-2">
           <BottomNavItem href="/" icon="ri-user-3-line" label="About" />
           <BottomNavItem href="/resume" icon="ri-file-list-3-line" label="Resume" />
