@@ -27,10 +27,10 @@ export default function RootLayout({
     <html lang="en">
       
       <body
-        className={`${poppins.className} antialiased`}
+        className={`${poppins.className} antialiased flex flex-col min-h-screen`}
       >
         <Navbar/>
-        <div className="container mx-auto px-10 sm:px-9 md:pl-36 lg:pl-40 xl:pl-60 pt-7">
+        <div className="flex-grow container mx-auto px-10 sm:px-9 md:pl-36 lg:pl-40 xl:pl-60 pt-7">
           {children}
         </div>
         <Footer/>
